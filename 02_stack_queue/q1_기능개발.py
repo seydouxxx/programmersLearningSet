@@ -2,6 +2,8 @@ def solution(progresses, speeds):
     answer = []
 
     
+    for i in range(len(progresses)):
+        progresses[i] += speeds[i]
 
     return answer
 
